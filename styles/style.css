@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Universal Tag */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font */
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+.container{
+    width: 90%;
+    margin: 3.56rem auto;
+    border-radius: 1rem;
+}
+span{
+    
+    background-color: #E6533C;
+    padding:8px 18px 8px 18px;
+    border-radius: 46px;
+}
+/* heading style */
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-title{
+    color: #E6533C;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 2.93rem;
+    align-items: center;
+    
+}
+
+.nav-bar p{
+    color: #FFFFFF;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
