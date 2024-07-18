@@ -11,6 +11,7 @@ body{
     font-family: "Inter", sans-serif;
     background-color: black;
     color: #FFFFFF;
+    
 }
 
 /* shared style */
@@ -21,8 +22,10 @@ body{
 }
 
 
+
 .primary-btn{
     background-color: #E6533C;
+    border:1px solid #E6533C;
     padding:16px 35px 16px 35px;
     border-radius: 2.62rem;
     font-size: 18px;
@@ -31,10 +34,12 @@ body{
     margin: 0px 14px; 
 }
 /* heading style */
+
 .heading{
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 .heading-title{
     color: #E6533C;
@@ -120,8 +125,8 @@ body{
 .banner-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
+    align-items: center;}
+    
 
 
 
