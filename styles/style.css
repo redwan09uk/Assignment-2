@@ -156,7 +156,27 @@ body{
     align-items: center;   
 }
 
-/* Need to work with image only */
+.img img{
+    border-radius: 15.62rem;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.img h6{
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.img p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+
+
 
 
 
@@ -210,6 +230,11 @@ body{
         border-radius: 2rem;
         font-size: 16px;
         font-weight: 600;
+    }
+
+    .change-habits-gallery{
+        flex-direction: column;
+        gap: 30px;
     }
         
 }
