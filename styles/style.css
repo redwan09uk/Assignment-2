@@ -32,6 +32,7 @@ body{
     font-weight: 600;
     cursor: pointer;
     margin: 0px 14px; 
+    color: #FFFFFF;
 }
 /* heading style */
 
@@ -178,7 +179,30 @@ body{
 
 .extra-mile-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222222;
+    width:1000px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+
+.extra-mile h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 14px;
+
+}
+
+.extra-mile p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 34px;
+}
+.run-img img{
+border-radius: 18px;
 }
 
 
@@ -241,6 +265,24 @@ body{
     .change-habits-gallery{
         flex-direction: column;
         gap: 30px;
+    }
+   
+    .extra-mile-container{
+        flex-direction: column;
+        gap:10px;
+        width:auto;
+        margin:10px;
+    }
+ 
+    .extra-mile-container button{
+        width: 300px;
+        height: 50px;
+        margin-bottom: 15px;
+        
+    }
+    .run-img img{
+        max-width: 100%
+        
     }
         
 }
