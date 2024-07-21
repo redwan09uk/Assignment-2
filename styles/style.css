@@ -28,12 +28,14 @@ body{
     border:1px solid #E6533C;
     padding:16px 35px 16px 35px;
     border-radius: 2.62rem;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 600;
     cursor: pointer;
     margin: 0px 14px; 
     color: #FFFFFF;
 }
+
+
 /* heading style */
 
 .heading{
@@ -42,11 +44,13 @@ body{
     align-items: center;
    
 }
+
 .heading-title{
     color: #E6533C;
     font-size: 2rem;
     font-weight: 700;
 }
+
 
 .nav-bar{
     display: flex;
@@ -65,7 +69,7 @@ body{
     
     background-color: #E6533C;
     padding:8px 18px 8px 18px;
-    border-radius: 46px;
+    border-radius: 2.87rem;
 }
 
 .ham-burger{
@@ -86,7 +90,7 @@ body{
     line-height: 24px;
     letter-spacing: 0.5px;
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 }
 .download-btn{
     background: rgb(0, 0, 0);
@@ -94,7 +98,7 @@ body{
     border: 1px solid white;
     padding:16px 35px 16px 35px;
     border-radius: 2.62rem;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 600;
     cursor: pointer;
     margin: 0px 14px;
@@ -108,20 +112,20 @@ body{
 .overlay {
     position: absolute;
     box-sizing: border-box;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    padding: 10px;
+    padding: 0.62rem;
     font-size: 1rem;
     text-align: center;}
     
 .top-right {
-    top: 180px;
-    right: -30px;
+    top: 11.25rem;
+    right: -1.87rem;
 }
 .bottom-left {
-    bottom: 20px;
-    left: 20px;
+    bottom: 1.25rem;
+    left: 1.25rem;
 }
 .banner-container{
     display: flex;
@@ -135,16 +139,16 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    gap: 58px;
+    gap: 3.62rem;
 }
 .change-habits-content h3{
     font-size: 3rem;
     font-weight: 900;
-    margin-bottom: 14px; 
+    margin-bottom: 0.87rem; 
 }
 
 .change-habits-content p{
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
@@ -160,13 +164,13 @@ body{
 .img img{
     border-radius: 15.62rem;
     border: 1px solid white;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .img h6{
     font-size: 1.12rem;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 0.31rem;
 }
 .img p{
     font-size: 0.87rem;
@@ -183,15 +187,15 @@ body{
     align-items: center;
     background-color: #222222;
     width:1000px;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-top: 0.31rem;
+    padding-bottom: 1.25rem;
 
 }
 
 .extra-mile h3{
     font-size: 3rem;
     font-weight: 800;
-    margin-bottom: 14px;
+    margin-bottom: 0.87rem;
 
 }
 
@@ -199,22 +203,22 @@ body{
     font-size: 0.87rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 34px;
+    margin-bottom: 2.12rem;
 }
 .run-img img{
-border-radius: 18px;
+border-radius: 1.12rem;
 }
 
 /* bmi calculator style */
 
 .bmi-calculator{
-     margin-left:320px;
+     margin-left:20rem;
      width: auto;
 }
 .bmi-content h3{
     font-size: 3rem;
     font-weight: 800;
-    margin-bottom: 5px;
+    margin-bottom: 0.31rem;
 }
 .bmi-content p{
     font-size: 0.87rem;
@@ -228,7 +232,7 @@ border-radius: 18px;
     justify-content: space-around;
     align-items: center;
     background-color: #222222;
-    padding: 52px;
+    padding: 3.25rem;
     
 }
 
@@ -240,7 +244,7 @@ table,th,td{
     color: rgb(255, 255, 255);
     font-size: 1.75rem;
     font-weight: 600;
-    padding-bottom: 25px;
+    padding-bottom: 1.56rem;
     
 }
 
@@ -250,17 +254,17 @@ table{
 }
 
 .table-head{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 .table-body{
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
 th, td{
-    padding: 10px;
+    padding: 0.62rem;
     text-align: center;
 }
 
@@ -276,22 +280,22 @@ th, td{
     font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 10px;
+    margin-bottom: 0.93rem;
 }
 
 
 .input-content input,
 .input-content select {
     width: 48%;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 0.31rem;
+    border-radius: 0.31rem;
     background: rgba(255, 255, 255, 0.1);
     }
 
 .input-content{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 0.62rem;
     background: rgba(255, 255, 255, 0.1);
     
 } 
@@ -313,25 +317,164 @@ select{
     font-size: 3rem;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 14px;
-    margin-top: 80px;
+    margin-bottom: 0.87rem;
+    margin-top: 5rem;
 }
 
 .meet-team-content p{
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 400;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 78px;
+    margin-bottom: 4.87rem;
 }
 
+.team-gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+    background: rgba(255, 255, 255, 0.1);
+    width:58%;
+    padding:1.25rem;
+    position :relative;
+    gap:0.62rem;
+       
+}
+
+.team-image img{
+    border-radius: 1.12rem;
+    background: rgba(255, 255, 255, 0.1);
+   
+}
  
+.ovrlay-1{
+    position: absolute;
+    bottom: 15.62rem;
+    left: -23.75rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.ovrlay-2{
+    position: absolute;
+    top: 11.25rem;
+    left: -3.75rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.ovrlay-3{
+    position: absolute;
+    top: 11.25rem;
+    right: -13.12rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
 
 
+.ovrlay-4{
+    position: absolute;
+    bottom: 1.87rem;
+    left: -23.12rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
 
+}
 
+.ovrlay-5{
+    position: absolute;
+    bottom:1.25rem;
+    left: -5.62rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.ovrlay-6{
+    position: absolute;
+    bottom: 1.25rem;
+    right: -12.5rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
 
+.ovrlay h6{
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
 
+.ovrlay  p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+/* footer style */
+
+footer{
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.87rem;
+    
+    
+}
+.footer-title h3{
+    color: #E6533C;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom:0.62rem;
+}
+
+.footer-title{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    
+    
+}
+
+.get-started h5{
+     font-size: 1.2rem;
+     font-weight: 600;
+     margin-bottom: 1.25rem;
+}
+
+.get-started p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 2.5rem;
+   
+}
+
+.hr{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 1.87rem;
+    
+}
+.footer-content{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center; 
+    padding: 1.20rem;
+}
 
 
 
@@ -362,7 +505,7 @@ select{
     }
     .ham-burger{
         display: block;
-        font-size: 26px
+        font-size: 1.62rem;
     }
     .container{
         margin: 3rem auto;
@@ -374,48 +517,91 @@ select{
     .primary-btn, .download-btn{
         padding:10px 20px 10px 20px;
         border-radius: 2rem;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 600;
     }
 
     .change-habits-gallery{
         flex-direction: column;
-        gap: 30px;
+        gap: 1.87rem;
     }
    
     .extra-mile-container{
         flex-direction: column;
-        gap:10px;
+        gap:0.62rem;
         width:auto;
-        margin:10px;
+        margin:0.62rem;
     }
  
     .extra-mile-container button{
-        width: 300px;
-        height: 50px;
-        margin-bottom: 15px;
+        width: 18.75rem;
+        height: 3.12rem;
+        margin-bottom: 0.93rem;
         
     }
     .run-img img{
-        max-width: 100%
+        max-width: 100%;
         
     }
     .bmi-calculator{
-        margin:10px;
+        margin:0.62rem;
 
     }
     .bmi-calculator-form-container{
         flex-direction: column;
-        gap: 40px; 
+        gap: 2.5rem; 
         align-items: flex-start;
     }
     .bmi-form h5{
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
     .bmi-form p{
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
    form .primary-btn{
-        margin-top: 15px;
+        margin-top: 0.93rem;
    }
+   .team-gallery{
+    grid-template-columns:repeat(1,1fr);
+    gap: 0.93rem;
+    
+   }
+
+  .ovrlay-1{
+    top: 11.25rem;
+    right: -23.75rem;
+
+  }
+  .ovrlay-2{
+    top:25rem;
+    left: -21.56rem;
+}
+.ovrlay-3{
+    top: 40rem;
+    left: -22.18rem;  
+}
+
+.ovrlay-4{
+    bottom: 29.75rem;
+    left: -3.10rem;
+}
+
+.ovrlay-5{
+    bottom:15.62rem;
+    left: -23.12rem;
+    
+}
+.ovrlay-6{
+    bottom:1.25rem;
+    left: -23.12rem; 
+
+} 
+
+.footer-container{
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 1.20rm;
+}
+
 }
