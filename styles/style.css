@@ -307,6 +307,23 @@ select{
     color:white;
 }
 
+/* meet team style */
+
+.meet-team-content h3{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 14px;
+    margin-top: 80px;
+}
+
+.meet-team-content p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 78px;
+}
 
  
 
