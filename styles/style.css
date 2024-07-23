@@ -311,6 +311,46 @@ select{
     color:white;
 }
 
+/* Gym equipment style */
+.gym-equipment-content h3{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: 0.87rem;
+
+}
+
+.gym-equipment-content p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 4.87rem;
+}
+
+.gym-equipment-gallery{
+    display : grid;
+    grid-template-columns: repeat(3,1fr);
+    background: rgba(255, 255, 255, 0.1);
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    margin: 0 14rem;
+    border-radius: 1.25rem;
+    gap:3rem;
+}
+
+.gym-img img{
+    border-radius: 1.12rem;
+    border: 1px solid white;
+    
+}
+.gym-img h6{
+    margin-top: 1rem;
+    color: gainsboro;
+    text-align: center;
+}
 /* meet team style */
 
 .meet-team-content h3{
@@ -334,7 +374,7 @@ select{
     grid-template-columns: repeat(3,1fr);  
     background: rgba(255, 255, 255, 0.1);
     width:60%;
-    padding:1.25rem;
+    padding:1.5rem;
     position :relative;
     gap:1rem;
     
@@ -411,14 +451,12 @@ select{
 
 .ovrlay h6{
     font-size: 1rem;
-    font-weight: 600;
-    
+    font-weight: 600;   
 }
 
 .ovrlay  p{
     font-size: 0.87rem;
     font-weight: 400;
-    text-align: center;
     
 }
 
