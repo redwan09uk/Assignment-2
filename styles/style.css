@@ -359,52 +359,51 @@ select{
 
 .item-1 p{
     position: absolute;
-    top: 12rem;
-    left: 2rem;
+    top: 10rem;
+    left: 1rem;
     color: tomato; 
-    font-weight: 900;
-    
- 
+    font-weight: 700;
+
 } 
 
 .item-2 p{
     position: absolute;
-    top: 3rem;
-    left: 24rem;
+    top: 2rem;
+    left: 20rem;
     color: tomato; 
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .item-3 p{
     position: absolute;
-    top: 10rem;
-    left: 47rem;
+    top: 8rem;
+    left: 37rem;
     color: tomato; 
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .item-4 p{
     position: absolute;
-    bottom: 12rem;
-    right: 46rem;
+    bottom: 8rem;
+    right: 37rem;
     color: tomato; 
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .item-5 p{
     position: absolute;
-    bottom: 2rem;
-    right: 31rem;
+    bottom: 1rem;
+    right: 23rem;
     color: tomato; 
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .item-6 p{
     position: absolute;
-    bottom: 2rem;
-    right: 9rem;
+    bottom: 1rem;
+    right: rem;
     color: tomato; 
-    font-weight: 900;
+    font-weight: 700;
 }
 
 
@@ -441,8 +440,7 @@ select{
     width: auto;
     height: auto;
     padding: 2rem;
-    padding-left: 5rem;
-    margin: 0 3rem;
+    margin: 0 2rem;
     border-radius: 1.25rem;
     gap:3rem;
     text-align: center;
@@ -480,9 +478,8 @@ select{
     display: grid;
     grid-template-columns: repeat(3,1fr);  
     background: rgba(255, 255, 255, 0.1);
-    width:70%;
-    padding:2rem;
-    padding-left: 5rem;
+    width:80%;
+    padding:1rem;
     position :relative;
     gap:2rem;
     
@@ -500,41 +497,41 @@ select{
 .ovrlay-1{
     position: absolute;
     top: 14rem;
-    left:6rem;  
+    left:2rem;  
 }
 
 .ovrlay-2{
     position: absolute;
     top: 14rem;
-    left: 26rem;  
+    left: 20rem;  
 }
 
 .ovrlay-3{
     position: absolute;
     top: 14rem;
-    left: 46rem;
+    left: 39rem;
     
 }
 
 
 .ovrlay-4{
     position: absolute;
-    bottom: 4rem;
-    left: 6rem;   
+    bottom: 2rem;
+    left: 2rem;   
 }
 
 
 .ovrlay-5{
     position: absolute;
-    bottom: 4rem;
-    left: 26rem;   
+    bottom: 2rem;
+    left: 20rem;   
 }
 
 
 .ovrlay-6{
     position: absolute;
-    bottom: 4rem;
-    left: 47rem;
+    bottom: 2rem;
+    left: 39rem;
     
 } 
 
@@ -734,32 +731,32 @@ footer{
    }
 
  .ovrlay-1{
-    top: 14rem;
-    left:6rem;  
+    top: 13rem;
+    left:2rem;  
  }
 
  .ovrlay-2{
-    top: 31rem;
-    left:6rem;  
+    top: 30rem;
+    left:2rem;  
  }
 
  .ovrlay-3{
-    top: 48rem;
-    left:6rem;  
+    top: 47rem;
+    left:2rem;  
  }
 
  .ovrlay-4{
     bottom: 37rem;
-    left: 6rem;   
+    left: 2rem;   
  }
 
  .ovrlay-5{
     bottom: 21rem;
-    left: 6rem;   
+    left: 2rem;   
  }
  .ovrlay-6{
     bottom: 4rem;
-    left: 6rem;   
+    left: 2rem;   
  }
 
 
