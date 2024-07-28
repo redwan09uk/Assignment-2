@@ -391,10 +391,11 @@ select{
     display: grid;
     grid-template-columns: repeat(3,1fr);  
     background: rgba(255, 255, 255, 0.1);
-    width:60%;
-    padding:1.5rem;
+    width:70%;
+    padding:2rem;
+    padding-left: 5rem;
     position :relative;
-    gap:1rem;
+    gap:2rem;
     
        
 }
@@ -405,71 +406,54 @@ select{
     margin: 0 auto;
    
 }
+
  
 .ovrlay-1{
     position: absolute;
-    bottom: 16.62rem;
-    left: -24.75rem;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    top: 14rem;
+    left:6rem;  
 }
 
 .ovrlay-2{
     position: absolute;
-    top: 11.25rem;
-    left: -3.75rem;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    top: 14rem;
+    left: 26rem;  
 }
+
 .ovrlay-3{
     position: absolute;
-    top: 11.25rem;
-    right: -15.12rem;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    top: 14rem;
+    left: 46rem;
+    
 }
 
 
 .ovrlay-4{
     position: absolute;
-    bottom: 1.87rem;
-    left: -23.12rem;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding: 5px 0;
-    
-
+    bottom: 4rem;
+    left: 6rem;   
 }
+
 
 .ovrlay-5{
     position: absolute;
-    bottom:1.25rem;
-    left: -5.62rem;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    bottom: 4rem;
+    left: 26rem;   
 }
+
+
 .ovrlay-6{
     position: absolute;
-    bottom: 1.25rem;
-    right: -14.5rem;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
+    bottom: 4rem;
+    left: 47rem;
+    
+} 
 
 .ovrlay h6{
     font-size: 1rem;
-    font-weight: 600;   
+    font-weight: 600;
+    margin: 0;
+    padding: 0; 
 }
 
 .ovrlay  p{
@@ -623,42 +607,41 @@ footer{
    }
    .team-gallery{
     grid-template-columns:repeat(1,1fr);
-    gap: 0.93rem;
-    
-    
+    gap: 1rem;
+    width: 65%; 
    }
 
-  .ovrlay-1{
-    top: 11.25rem;
-    right: -23.75rem;
+ .ovrlay-1{
+    top: 14rem;
+    left:6rem;  
+ }
 
-  }
-  .ovrlay-2{
-    top:25rem;
-    left: -21.56rem;
-}
-.ovrlay-3{
-    top: 40rem;
-    left: -22.18rem;  
-}
+ .ovrlay-2{
+    top: 31rem;
+    left:6rem;  
+ }
 
-.ovrlay-4{
-    bottom: 29.75rem;
-    left: -3.10rem;
-}
+ .ovrlay-3{
+    top: 48rem;
+    left:6rem;  
+ }
 
-.ovrlay-5{
-    bottom:15.62rem;
-    left: -23.12rem;
-    
-}
-.ovrlay-6{
-    bottom:1.25rem;
-    left: -23.12rem; 
+ .ovrlay-4{
+    bottom: 37rem;
+    left: 6rem;   
+ }
 
-} 
+ .ovrlay-5{
+    bottom: 21rem;
+    left: 6rem;   
+ }
+ .ovrlay-6{
+    bottom: 4rem;
+    left: 6rem;   
+ }
 
-.gym-equipment-gallery{
+
+ .gym-equipment-gallery{
     grid-template-columns: repeat(1,1fr);
     width: 60%;
     margin: 0 auto;
@@ -668,7 +651,7 @@ footer{
     
 }
 
-.footer-container{
+ .footer-container{
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
