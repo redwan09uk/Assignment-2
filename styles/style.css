@@ -21,8 +21,6 @@ body{
     border-radius: 1rem;
 }
 
-
-
 .primary-btn{
     background-color: #E6533C;
     border:1px solid #E6533C;
@@ -78,7 +76,7 @@ body{
 
 .ham-burger{
     color: #FFFFFF;
-    display: none;
+    display:none;
 }
 
 /* banner style */
@@ -361,8 +359,10 @@ select{
     position: absolute;
     top: 10rem;
     left: 1rem;
-    color: tomato; 
-    font-weight: 700;
+    color: white; 
+    font-size: 0.80rem;
+    font-weight: 600;
+    
 
 } 
 
@@ -370,47 +370,71 @@ select{
     position: absolute;
     top: 2rem;
     left: 20rem;
-    color: tomato; 
-    font-weight: 700;
+    color: white; 
+    font-size: 0.80rem;
+    font-weight: 600;
+    
+   
 }
 
 .item-3 p{
     position: absolute;
     top: 8rem;
     left: 37rem;
-    color: tomato; 
-    font-weight: 700;
+    color:white; 
+    font-size: 0.80rem;
+    font-weight: 600;
 }
 
 .item-4 p{
     position: absolute;
     bottom: 8rem;
     right: 37rem;
-    color: tomato; 
-    font-weight: 700;
+    color: white; 
+    font-size: 0.80rem;
+    font-weight: 600;
 }
 
 .item-5 p{
     position: absolute;
     bottom: 1rem;
     right: 23rem;
-    color: tomato; 
-    font-weight: 700;
+    color: white;  
+    font-size: 0.80rem;
+    font-weight: 600;
 }
 
 .item-6 p{
     position: absolute;
     bottom: 1rem;
     right: rem;
-    color: tomato; 
-    font-weight: 700;
+    color: white; 
+    font-size: 0.80rem;
+    font-weight: 600;
 }
+.img-box{
+    position: relative;
+}
+/*the below comment style for background-color of an image*/
+/* .ovrly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    mix-blend-mode:multiply;
+} 
+.red {
+    background-color: rgba(255, 0, 0, 0.5);
+}*/ 
 
 
 .exer-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }
 
 
