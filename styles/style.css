@@ -19,6 +19,7 @@ body{
     width: 90%;
     margin: 3.56rem auto;
     border-radius: 1rem;
+    
 }
 
 .primary-btn{
@@ -70,7 +71,7 @@ body{
 .nav-text{
     
     background-color: #E6533C;
-    padding:8px 18px 8px 18px;
+    padding:0.5rem 1.12rem 0.5rem 1.12rem;
     border-radius: 2.87rem;
 }
 
@@ -83,7 +84,7 @@ body{
 .banner-text-container h1{
     font-size: 3.5rem;
     font-weight: 800;
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 }
 
 .banner-text-container p{
@@ -103,7 +104,7 @@ body{
     background: rgb(0, 0, 0);
     color:#FFFFFF;
     border: 1px solid white;
-    padding:16px 35px 16px 35px;
+    padding:1rem 2.18rem 1rem 2.18rem;
     border-radius: 2.62rem;
     font-size: 1.12rem;
     font-weight: 600;
@@ -291,11 +292,11 @@ th, td{
 .bmi-form h5{
     font-size: 1.75rem;
     font-weight: 600;
-    margin-bottom:15px;  
+    margin-bottom:0.93rem;  
 }
 
 .bmi-form p{
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 0.93rem;
@@ -357,9 +358,9 @@ select{
 
 .item-1 p{
     position: absolute;
-    top: 10rem;
+    top: 12rem;
     left: 1rem;
-    color: white; 
+    color: rgb(242, 85, 13); 
     font-size: 0.80rem;
     font-weight: 600;
     
@@ -369,8 +370,8 @@ select{
 .item-2 p{
     position: absolute;
     top: 2rem;
-    left: 20rem;
-    color: white; 
+    left: 25rem;
+    color: rgb(242, 85, 13); 
     font-size: 0.80rem;
     font-weight: 600;
     
@@ -379,18 +380,18 @@ select{
 
 .item-3 p{
     position: absolute;
-    top: 8rem;
-    left: 37rem;
-    color:white; 
+    top: 10rem;
+    left: 48rem;
+    color: rgb(242, 85, 13); 
     font-size: 0.80rem;
     font-weight: 600;
 }
 
 .item-4 p{
     position: absolute;
-    bottom: 8rem;
-    right: 37rem;
-    color: white; 
+    bottom: 12rem;
+    right: 47rem;
+    color: rgb(242, 85, 13); 
     font-size: 0.80rem;
     font-weight: 600;
 }
@@ -399,7 +400,7 @@ select{
     position: absolute;
     bottom: 1rem;
     right: 23rem;
-    color: white;  
+    color: rgb(242, 85, 13); 
     font-size: 0.80rem;
     font-weight: 600;
 }
@@ -407,10 +408,11 @@ select{
 .item-6 p{
     position: absolute;
     bottom: 1rem;
-    right: rem;
-    color: white; 
+    right:12rem;
+    color: rgb(242, 85, 13); 
     font-size: 0.80rem;
     font-weight: 600;
+    
 }
 .img-box{
     position: relative;
@@ -419,8 +421,10 @@ select{
 .exer-img img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    
+    object-fit: cover;   
+}
+.red{
+    background-image: linear-gradient(0.31rem);
 }
 
 /* Gym equipment style */
@@ -511,13 +515,13 @@ select{
 .ovrlay-2{
     position: absolute;
     top: 14rem;
-    left: 20rem;  
+    left: 25rem;  
 }
 
 .ovrlay-3{
     position: absolute;
     top: 14rem;
-    left: 39rem;
+    left: 48rem;
     
 }
 
@@ -532,14 +536,14 @@ select{
 .ovrlay-5{
     position: absolute;
     bottom: 2rem;
-    left: 20rem;   
+    left: 25rem;   
 }
 
 
 .ovrlay-6{
     position: absolute;
     bottom: 2rem;
-    left: 39rem;
+    left: 48rem;
     
 } 
 
@@ -623,7 +627,7 @@ footer{
 /* Responsive */
 /* Mobile device */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:36rem /*I have useed 36rem here which is equivalent to 576px*/) {
     .nav-bar{
         display:none;
     }
@@ -640,7 +644,7 @@ footer{
   
    
     .primary-btn, .download-btn{
-        padding:10px 20px 10px 20px;
+        padding:0.62rem 1.25rem 0.62rem 1.25rem;
         border-radius: 2rem;
         font-size: 1rem;
         font-weight: 600;
@@ -785,7 +789,7 @@ white-space:nowrap;
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
-    gap: 1.20rm;
+    gap: 1.20rem;
 }
 
 }
